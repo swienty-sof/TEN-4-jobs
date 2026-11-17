@@ -1,6 +1,6 @@
 :root{
-  --bg:#F6DFD7;
-  --blue:#1F55D6;
+  --bg:#F6DDD5;
+  --blue:#0F53D1;
   --pink:#F65FA0;
   --ink:#111;
   --card:#FBEFEA;
@@ -46,11 +46,11 @@ main>h2.wide{font-size:15px;color:var(--blue);margin-bottom:18px}
 .content li::before{content:"✦";position:absolute;left:0;top:1px;font-size:12px;color:var(--blue)}
 .content a,.cta a:not(.btn),.note a{color:var(--blue);font-weight:600}
 
-.cta{background:var(--blue);color:#fff;padding:40px 36px;margin:56px 0 72px}
-.cta h2{font-size:clamp(22px,3.6vw,32px);margin-bottom:18px}
-.cta p{margin-bottom:12px;max-width:620px}
+.cta{background:var(--blue);color:#fff;padding:26px 28px;margin:48px 0 64px;font-size:15px}
+.cta h2{font-size:clamp(16px,2.2vw,20px);margin-bottom:12px}
+.cta p{margin-bottom:8px;max-width:620px}
 .cta a:not(.btn){color:#fff}
-.btn{display:inline-block;background:var(--pink);color:#fff;text-decoration:none;font-size:15px;padding:16px 26px;margin:12px 0 18px;transition:background .15s}
+.btn{display:inline-block;background:var(--pink);color:#fff;text-decoration:none;font-size:13px;padding:12px 20px;margin:8px 0 12px;transition:background .15s}
 .btn:hover{background:var(--ink)}
 .sign{font-weight:500}
 
@@ -63,5 +63,5 @@ main>h2.wide{font-size:15px;color:var(--blue);margin-bottom:18px}
 @media (max-width:600px){
   body{font-size:16px}
   .card{padding:22px 20px}
-  .cta{padding:30px 22px}
+  .cta{padding:22px 20px}
 }
